@@ -25,10 +25,10 @@ CREATE TABLE article_content
 
 ### DML
 ```
-INSERT INTO spring4fs.`member` (email, password, name, regdate) VALUES('lee94@chosun.com', '2345', '이순신', '1950-01-01 00:00:00');
-INSERT INTO spring4fs.`member` (email, password, name, regdate) VALUES('kim@shila.com', '9999', '김춘추', '2013-04-15 00:00:00');
-INSERT INTO spring4fs.`member` (email, password, name, regdate) VALUES('cyy@chosun.com', '7878', '정약용', '2002-10-09 00:00:00');
-INSERT INTO spring4fs.`member` (email, password, name, regdate) VALUES('jang@chosun.gov', '7878', '장영실', '1988-07-07 00:00:00');
+INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('lee94@chosun.com', '2345', '이순신', '1950-01-01 00:00:00');
+INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('kim@shila.com', '9999', '김춘추', '2013-04-15 00:00:00');
+INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('cyy@chosun.com', '7878', '정약용', '2002-10-09 00:00:00');
+INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('jang@chosun.gov', '7878', '장영실', '1988-07-07 00:00:00');
 ```
 
 ```
