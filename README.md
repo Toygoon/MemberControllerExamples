@@ -1,6 +1,17 @@
 # YUServletExemplified
 
 ### DDL
+- member
+```
+CREATE TABLE member
+  (
+     id       INT auto_increment PRIMARY KEY,
+     name     VARCHAR(255) NULL,
+     email    VARCHAR(255) NULL,
+     password VARCHAR(255) NULL,
+     regdate  DATETIME NULL
+  ); 
+```
 - article
 ```
 CREATE TABLE article
