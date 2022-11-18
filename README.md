@@ -35,6 +35,7 @@ CREATE TABLE article_content
 ```
 
 ### DML
+- member
 ```
 INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('lee94@chosun.com', '2345', '이순신', '1950-01-01 00:00:00');
 INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('kim@shila.com', '9999', '김춘추', '2013-04-15 00:00:00');
@@ -42,6 +43,7 @@ INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('cyy@chosun
 INSERT INTO spring4fs.member (email, password, name, regdate) VALUES('jang@chosun.gov', '7878', '장영실', '1988-07-07 00:00:00');
 ```
 
+- article
 ```
 INSERT INTO spring4fs.article (writer, title, regdate, moddate, read_cnt) VALUES((SELECT id FROM member WHERE name='이순신'), '한산섬', '2022-09-20 10:49:29', '2022-11-18 14:40:14', 21);
 INSERT INTO spring4fs.article (writer, title, regdate, moddate, read_cnt) VALUES((SELECT id FROM member WHERE name='장영실'), '측우기', '2022-09-20 10:50:18', '2022-09-20 10:50:18', 12);
